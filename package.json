@@ -1,0 +1,26 @@
+{
+	"name": "row-node-project",
+	"version": "1.0.0",
+	"description": "Uptime Monitoring Aplication",
+	"main": "index.js",
+	"scripts": {
+		"start": " nodemon index NODE_ENV=staging",
+		"production": " nodemon index NODE_ENV=production",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Zakaria Sumon",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "7.2.0",
+		"eslint-config-airbnb": "18.2.1",
+		"eslint-config-airbnb-base": "14.2.1",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-import": "2.22.1",
+		"eslint-plugin-jsx-a11y": "6.4.1",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-react": "7.21.5",
+		"eslint-plugin-react-hooks": "1.7.0",
+		"prettier": "^2.2.1"
+	}
+}
