@@ -21,10 +21,10 @@ app.config = {
     port: 3000,
 };
 
-// testing file system
-data.delete('test', 'newFile', (err) => {
-    console.log(err);
-});
+// // testing file system
+// data.delete('test', 'newFile', (err) => {
+//     console.log(err);
+// });
 
 // create serve \
 app.cerateServer = () => {
